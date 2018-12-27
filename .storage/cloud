@@ -1,0 +1,9 @@
+{
+    "data": {
+        "alexa_enabled": false,
+        "google_allow_unlock": true,
+        "google_enabled": true
+    },
+    "key": "cloud",
+    "version": 1
+}

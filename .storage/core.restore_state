@@ -1,0 +1,234 @@
+{
+    "data": [
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest by Ookla",
+                    "bytes_received": 128485894,
+                    "bytes_sent": 14024704,
+                    "friendly_name": "Speedtest Download",
+                    "icon": "mdi:speedometer",
+                    "latency": 30.549,
+                    "server_country": "Canada",
+                    "server_id": "12222",
+                    "server_name": "Ripley, ON",
+                    "unit_of_measurement": "Mbit/s"
+                },
+                "context": {
+                    "id": "5e75e26928c24ecea2e7f3efb1df8b6c",
+                    "user_id": null
+                },
+                "entity_id": "sensor.speedtest_download",
+                "last_changed": "2018-12-27T23:00:51.007395+00:00",
+                "last_updated": "2018-12-27T23:00:51.007395+00:00",
+                "state": "102.69"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest by Ookla",
+                    "bytes_received": 128485894,
+                    "bytes_sent": 14024704,
+                    "friendly_name": "Speedtest Ping",
+                    "icon": "mdi:speedometer",
+                    "latency": 30.549,
+                    "server_country": "Canada",
+                    "server_id": "12222",
+                    "server_name": "Ripley, ON",
+                    "unit_of_measurement": "ms"
+                },
+                "context": {
+                    "id": "0cb07d7205b64efeabab68c2bdfe3bd8",
+                    "user_id": null
+                },
+                "entity_id": "sensor.speedtest_ping",
+                "last_changed": "2018-12-27T23:00:51.006393+00:00",
+                "last_updated": "2018-12-27T23:00:51.006393+00:00",
+                "state": "30.549"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest by Ookla",
+                    "bytes_received": 128485894,
+                    "bytes_sent": 14024704,
+                    "friendly_name": "Speedtest Upload",
+                    "icon": "mdi:speedometer",
+                    "latency": 30.549,
+                    "server_country": "Canada",
+                    "server_id": "12222",
+                    "server_name": "Ripley, ON",
+                    "unit_of_measurement": "Mbit/s"
+                },
+                "context": {
+                    "id": "b9d4d1234f63482e9846ab0eab54e33d",
+                    "user_id": null
+                },
+                "entity_id": "sensor.speedtest_upload",
+                "last_changed": "2018-12-27T23:00:51.006911+00:00",
+                "last_updated": "2018-12-27T23:00:51.006911+00:00",
+                "state": "11.15"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn on front door lights in the morning",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "d0063c50b6fd42799c8fe9c29bcf590a",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_on_front_door_lights_in_the_morning",
+                "last_changed": "2018-12-27T22:32:52.408826+00:00",
+                "last_updated": "2018-12-27T22:32:52.408826+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn on living room light in the morning",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "a584bcdc3d524e6897d868111e93d9e8",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_on_living_room_light_in_the_morning",
+                "last_changed": "2018-12-27T22:32:52.409852+00:00",
+                "last_updated": "2018-12-27T22:32:52.409852+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn off front lights in the morning",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "9013f466d2824af7b38133bcc78b7165",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_off_front_lights_in_the_morning",
+                "last_changed": "2018-12-27T22:32:52.410345+00:00",
+                "last_updated": "2018-12-27T22:32:52.410345+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn on the front lights in the evening",
+                    "last_triggered": "2018-12-27T22:31:47.070812+00:00"
+                },
+                "context": {
+                    "id": "3c9367d4ae7e42449dd29befd3c3450f",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_on_the_front_lights_in_the_evening",
+                "last_changed": "2018-12-27T22:32:52.411008+00:00",
+                "last_updated": "2018-12-27T22:32:52.411008+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn off living room light in the morning",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "bf4bebee704c4f0dbdb2a9938015b3ac",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_off_living_room_light_in_the_morning",
+                "last_changed": "2018-12-27T22:32:52.411516+00:00",
+                "last_updated": "2018-12-27T22:32:52.411516+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn off the front lights at bedtime weekday",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "48a9a51263d64efbac908dc1e88756d1",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_off_the_front_lights_at_bedtime_weekday",
+                "last_changed": "2018-12-27T22:32:52.411921+00:00",
+                "last_updated": "2018-12-27T22:32:52.411921+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn on living room light afternoon",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "18d5894d04ed4cf3b24412351ffb42bc",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_on_living_room_light_afternoon",
+                "last_changed": "2018-12-27T22:32:52.412339+00:00",
+                "last_updated": "2018-12-27T22:32:52.412339+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn off the front lights night",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "0b82a65d9518405686f1518e835a65af",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_off_the_front_lights_night",
+                "last_changed": "2018-12-27T22:32:52.412766+00:00",
+                "last_updated": "2018-12-27T22:32:52.412766+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2018-12-27T23:02:53.002033+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Turn off living room light at weekday bedtime",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "901291cafbd945a3adc2933eb5723cd9",
+                    "user_id": null
+                },
+                "entity_id": "automation.turn_off_living_room_light_at_weekday_bedtime",
+                "last_changed": "2018-12-27T22:32:52.413084+00:00",
+                "last_updated": "2018-12-27T22:32:52.413084+00:00",
+                "state": "on"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

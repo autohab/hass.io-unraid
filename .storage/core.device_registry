@@ -1,0 +1,80 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "d34722b5b8f4430fbdcfed22e5295733"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "4a7927268eb24050820d5f033ea10642",
+                "identifiers": [
+                    [
+                        "cast",
+                        "f29a267d4d170efa171e682fdf556af0"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Living Room TV",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "d34722b5b8f4430fbdcfed22e5295733"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "9b3ab9fd4ed5451ca67f69f28af15488",
+                "identifiers": [
+                    [
+                        "cast",
+                        "737f7e22e8f26e26735c6b014a5fd31c"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Master Bedroom",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "d34722b5b8f4430fbdcfed22e5295733"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "9f5430f09f29443eb00bfd91ab7f0872",
+                "identifiers": [
+                    [
+                        "cast",
+                        "63fd95e9e2ff4062365b261376cb3ef8"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast Audio",
+                "name": "Garage speaker",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "d34722b5b8f4430fbdcfed22e5295733"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "9de261175a14491186c0b5a3484a499d",
+                "identifiers": [
+                    [
+                        "cast",
+                        "281ac9741f69fb0ff847312443c0fa94"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home",
+                "name": "Kitchen speaker",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

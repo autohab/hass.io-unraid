@@ -1,0 +1,134 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_kbytesec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_kbyte/sec_received"
+            },
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_packetssec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_packets/sec_received"
+            },
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_packetssec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_packets/sec_sent"
+            },
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_packets_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_packets_received"
+            },
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_bytes_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_bytes_sent"
+            },
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_packets_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_packets_sent"
+            },
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_kbytesec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_kbyte/sec_sent"
+            },
+            {
+                "config_entry_id": "72c73643aad64baca1ad507435f2d282",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mikrotik_router_bytes_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK_bytes_received"
+            },
+            {
+                "config_entry_id": "d34722b5b8f4430fbdcfed22e5295733",
+                "device_id": "4a7927268eb24050820d5f033ea10642",
+                "disabled_by": null,
+                "entity_id": "media_player.living_room_tv",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "f29a267d-4d17-0efa-171e-682fdf556af0"
+            },
+            {
+                "config_entry_id": "d34722b5b8f4430fbdcfed22e5295733",
+                "device_id": "9b3ab9fd4ed5451ca67f69f28af15488",
+                "disabled_by": null,
+                "entity_id": "media_player.master_bedroom",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "737f7e22-e8f2-6e26-735c-6b014a5fd31c"
+            },
+            {
+                "config_entry_id": "d34722b5b8f4430fbdcfed22e5295733",
+                "device_id": "9f5430f09f29443eb00bfd91ab7f0872",
+                "disabled_by": null,
+                "entity_id": "media_player.garage_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "63fd95e9-e2ff-4062-365b-261376cb3ef8"
+            },
+            {
+                "config_entry_id": "d34722b5b8f4430fbdcfed22e5295733",
+                "device_id": "9de261175a14491186c0b5a3484a499d",
+                "disabled_by": null,
+                "entity_id": "media_player.kitchen_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "281ac974-1f69-fb0f-f847-312443c0fa94"
+            },
+            {
+                "config_entry_id": "d34722b5b8f4430fbdcfed22e5295733",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.home_group",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "720b2273-99c7-45ea-a60b-cb6eda5e3254"
+            },
+            {
+                "config_entry_id": "d34722b5b8f4430fbdcfed22e5295733",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.home",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "6df01f0a-c6b0-4d3d-aaf5-a0c66f1a45b8"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

@@ -1,0 +1,116 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude_home
+  longitude: !secret longitude_home
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: !secret elevation_home
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: !secret time_zone_home
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables Lovelace and YAML mode
+lovelace:
+  mode: yaml
+
+# Enables configuration UI
+config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+ http:
+   base_url: h340ha.duckdns.org:8123
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+  exclude:
+    entities:
+      - sensor.time
+      - sensor.date
+      - sensor.last_boot
+
+# View all events in a logbook
+logbook:
+  exclude:
+    domains:
+      - weather
+    entities:
+      - sensor.time
+      - sensor.date
+      - sensor.last_boot
+      
+# Recorder
+recorder:
+  purge_keep_days: 5
+  exclude:
+    domains:
+      - automation
+    entities:
+      - sun.sun # Don't record sun data
+      - sensor.last_boot # Comes from 'systemmonitor' sensor platform
+      - sensor.date
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+# Weather predictio
+weather:
+  - platform: darksky
+    api_key: !secret darksky_api
+    mode: daily
+
+# Thermostat
+#ecobee:
+
+sensor: !include_dir_merge_list sensor
+
+# media
+media_player:
+  - platform: plex
+    entity_namespace: 'plex'
+    include_non_clients: true
+    scan_interval: 5
+    show_all_controls: false
+    use_custom_entity_ids: true
+    use_episode_art: true
+    remove_unavailable_clients: true
+    client_remove_interval: 600
+
+# Text to speech
+tts:
+  - platform: google
+
+# Cloud
+cloud:
+
+switch: !include_dir_merge_list switch
+# group: !include groups.yaml
+automation: !include_dir_merge_list automation
+script: !include scripts.yaml

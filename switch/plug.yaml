@@ -1,0 +1,14 @@
+# TP-LINK HS100 - Living Room Lamp - smart plug
+- name: living_room_lamp
+  platform: tplink
+  host: 192.168.17
+  
+  # TP-LINK HS105 - Kitchen Plug
+# - name: kitchen_plug
+#   platform: tplink
+#   host: 192.168.88.18
+  
+  # TP-LINK HS110 - Washing Machine
+# - name: washing_machine
+#   platform: tplink
+#   host: 192.168.88.20

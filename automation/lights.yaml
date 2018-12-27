@@ -1,0 +1,104 @@
+- alias: Turn on living room light in the morning
+  trigger:
+    platform: time
+    at: "06:00:00"
+  condition:
+    condition: time
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+  action:
+    service: switch.turn_on
+    entity_id: switch.living_room_lamp
+
+- alias: Turn off living room light in the morning
+  trigger:
+    platform: sun
+    event: sunrise
+    offset: "+00:45:00"
+  action:
+    service: switch.turn_off
+    entity_id: switch.living_room_lamp
+
+- alias: Turn on living room light afternoon
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:45:00"
+  action:
+    service: switch.turn_on
+    data:
+      entity_id: switch.living_room_lamp
+
+- alias: Turn off living room light at weekday bedtime
+  trigger:
+    platform: time
+    at: "23:00:00"
+  condition:
+    condition: time
+    weekday:
+      - sun
+      - mon
+      - tue
+      - wed
+      - thu
+  action:
+    service: switch.turn_off
+    entity_id: switch.living_room_lamp
+
+- alias: Turn on front door lights in the morning
+  trigger:
+    platform: sun
+    event: sunrise
+    offset: "-01:00:00"
+  condition:
+    - condition: time
+      after: "06:00:00"
+  action:
+    service: switch.turn_on
+    entity_id: switch.front_door_lights
+
+- alias: Turn off front lights in the morning
+  trigger:
+    platform: sun
+    event: sunrise
+    offset: "+00:05:00"
+  action:
+    service: switch.turn_off
+    entity_id: switch.front_door_lights
+
+- alias: Turn on the front lights in the evening
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "+00:40:00"
+  action:
+    service: switch.turn_on
+    entity_id: switch.front_door_lights
+
+- alias: Turn off the front lights at bedtime weekday
+  trigger:
+    platform: time
+    at: "22:30:00"
+  condition:
+    condition: time
+    weekday:
+      - sun
+      - mon
+      - tue
+      - wed
+      - thu
+  action:
+    service: switch.turn_off
+    entity_id: switch.front_door_lights
+
+- alias: Turn off the front lights night
+  trigger:
+    platform: time
+    at: "01:00:00"
+  action:
+    service: switch.turn_off
+    entity_id: switch.front_door_lights

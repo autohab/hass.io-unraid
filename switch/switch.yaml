@@ -1,0 +1,4 @@
+# TP-LINK HS200 - Front Door Outside Lights
+- name: front_door_lights
+  platform: tplink
+  host: 192.168.0.22

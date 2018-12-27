@@ -1,0 +1,31 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "port_mapping": true,
+                    "sensors": true,
+                    "ssdp_description": "http://192.168.88.1:2828/gateway.xml",
+                    "udn": "uuid:UUID-MIKROTIK-INTERNET-GATEWAY-DEVICE-248Q-YURK"
+                },
+                "domain": "upnp",
+                "entry_id": "72c73643aad64baca1ad507435f2d282",
+                "source": "discovery",
+                "title": "MikroTik Router",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "cast",
+                "entry_id": "d34722b5b8f4430fbdcfed22e5295733",
+                "source": "discovery",
+                "title": "Google Cast",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
